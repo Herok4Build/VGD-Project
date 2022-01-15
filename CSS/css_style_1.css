@@ -1,0 +1,112 @@
+/**
+Thomas Hilton Johnson III
+04/26/2019
+Dr. Lin Chen
+Database and Intelligent Systems
+Reference: https://www.google.com/search?client=safari&rls=en&q=hex+color&ie=UTF-8&oe=UTF-8 
+Reference: https://css-tricks.com/complete-guide-table-element/
+**/
+body
+{
+    background: linear-gradient(to right,#9effaf,#eff9c2);
+    padding: 10px;
+}
+
+.partition_1
+{
+     border-style: solid;
+     border-width: 7px;
+     border-color: #005d60;
+     background-color: #eaeded;
+}
+
+.partition_2
+{
+     border-style: solid;
+     border-width: 7px;
+     border-color: #005d60;
+     background-color: #8fcff7;
+}
+.partition_3
+{
+     border-style: solid;
+     border-width: 7px;
+     border-color: #2ff3f9;
+     background-color: #bae4ff;
+     padding: 5px;
+}
+
+.form_input_1
+{
+     border-radius: 24px;
+     width: 60%;
+     padding: 10px;
+     text-align: center;
+}
+.form_input_2
+{
+     border-radius: 16px;
+     width: 80%;
+     padding: 12px;
+     text-align: center;
+}
+.text_center
+{
+text-align: center;
+}
+.center_div
+{
+     margin-left: auto; 
+     margin-right: auto;
+}
+.form_button_1
+{
+    color:#d6fbff;
+    padding: 10px;
+    border-radius: 6px;
+    background-color: white;
+    color: black;
+}
+.form_button_1:hover
+{
+    color: black;
+}
+.table_1
+{
+    margin-right:auto;
+    margin-left:auto;
+}
+
+
+.btn-primary:hover
+{
+    background:white;
+}
+
+.nav-text
+{
+    color:black;
+}
+
+.nav_background
+{
+    background:#02DDFB;
+}
+
+.navbar-light .navbar-nav .nav-link
+{
+    color: black;
+}
+
+.nav_border
+{
+    border: solid 3px #D095FF;
+}
+
+td,th
+{
+    border: 3px solid black;
+    padding: 1rem;
+    text-align:left;
+    background:#F8F8F8;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<!--Bootstrap 4 is used in this project and Bootstrap documentation is referenced
+Reference:https://medium.com/@ray.gomez/boostrap4-difference-between-container-and-container-fluid-17a48d7e0eb
+-->
+<head>
+    <link rel="stylesheet" href="./bootstrap_4/css/bootstrap.min.css">
+    <script src="./bootstrap_4/css/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./CSS/css_style_1.css">
+</head>
+<title>Home to Your Catalogue</title>
+<body>
+<div class="container-fluid">
+<div class="container">
+    <div class="row">
+    <div class="col-md-3">
+    </div>
+    <div class="col-md-6 partition_1">
+         <h1> Enter Your Credentials to Gain Passage</h1>
+         <p>This is a video game inventory catalogue for personal use. Keep track of the games you have as well
+         as the ones you do not using this amazing catalogue.</p>
+         <br>
+         <form class="form_input_1" action = "user_login.php" method = "post">
+     Username: <input class= "form_input_1" type="text" name="username" placeholder= "Enter username...">
+     <br>
+     Password: <input class= "form_input_1" type="text" name="password" placeholder= "Enter password...">
+     <br>
+     <button class="btn btn-primary form_button_1 center_div" type="submit">Submit Credentials</button>
+         </form>
+    </div>
+    <div class="col-md-3">
+    </div>
+    </div>
+    <br>
+    <div class ="row">
+    <div class="col-md-3">
+    </div>
+    <div class = "col-md-6 partition_1">
+    <h1>Add in Your Credentials to Cross the Threshold</h1>
+    <p>Not a part? Then join and verify completion.</p>
+    <form class="form_input_2" action = "user_add.php" method = "post">
+     Username: <input class= "form_input_2" type="text" name="username" placeholder= "Enter username...">
+     <br>
+     Password: <input class= "form_input_2" type="text" name="password" placeholder= "Enter password...">
+     <br>
+     Date you Joined: <input class= "form_input_2" type="date" name="date_joined" placeholder= "yyyy-mm-dd">
+     <br>
+     <button class="btn btn-primary form_button_1 center_div" type="submit">Submit Credentials</button>
+    </form>
+    </div>
+    <div class="col-md-3">
+    </div>
+    </div>
+</div>
+</div>
+</div>
+</body>
+</html>
